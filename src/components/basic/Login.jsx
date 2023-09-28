@@ -7,16 +7,16 @@ export default function Login(){
             <h1>Login</h1><br />
 
             <form>
-                <label for="usuario">Usuário:</label><br />
+                <label htmlFor="usuario">Usuário:</label><br />
                 <input id="usuario" type="text" placeholder="Digite seu usuário"></input><br /><br />
 
-                <label for="password">Senha:</label><br />
+                <label htmlFor="password">Senha:</label><br />
                 <input id="password" type="password" placeholder="Digite sua senha"></input><br /><br />
                 
-                <label for="age">Idade:</label><br />
+                <label htmlFor="age">Idade:</label><br />
                 <input id="age" type="number" min="0" max="100"></input><br /><br />
                 
-                <label for="termos">Ao clicar no botão você aceita nossos <a id="term" href="https://github.com/IkPc/ProjectReact" target="_self">Termos de Serviço   </a></label>
+                <label htmlFor="termos">Ao clicar no botão você aceita nossos <a id="term" href="https://github.com/IkPc/ProjectReact" target="_self">Termos de Serviço</a>  </label>
                 <input id="termos" type="checkbox"></input><br /><br />
 
                 <input id="submit" type="button" value="Fazer Login"></input>
