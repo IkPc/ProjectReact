@@ -1,0 +1,17 @@
+a {
+    color: whitesmoke;
+}
+
+/*'SUBMIT' é o id do botão de enviar do formulario de login*/
+#submit {
+    background-color:  rgb(75, 119, 9);
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+a {
+    color: #00f;
+    font: italic;
+    text-decoration: underline;
+}

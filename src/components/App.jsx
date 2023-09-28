@@ -1,9 +1,11 @@
-import Primeiro from "./basic/Primeiro.jsx";
-import Titulos from "./basic/Titulos.jsx";
+import Login from "./basic/Login.jsx";
+import Main from "./basic/Main.jsx";
 
 export default function App(){
     return(
-            Titulos(),
-            Primeiro()
+        <div>
+                <Main />
+                <Login />
+        </div>
     )
 }
